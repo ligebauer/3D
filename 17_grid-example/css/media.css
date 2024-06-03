@@ -1,0 +1,225 @@
+@media (max-width: 1100px) {
+  .hero__container {
+    background-size: 50%;
+  }
+  .hero__title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+  .hero__container {
+    background-image: url('../img/hero-image-768.png');
+    background-position-y: calc(50% - 12px);
+    background-position-x: calc(100% - 40px);
+    background-size: auto;
+  }
+  .hero__content {
+    padding-right: 180px;
+  }
+  .hero__title {
+    font-size: 50px;
+  }
+  .hero__description {
+    margin-top: 15px;
+  }
+  .about__description-title {
+    width: 100%;
+  }
+  .achievements__card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .achievements__card-text {
+    margin-top: 15px;
+  }
+  .profile__item {
+    margin-top: 24px;
+  }
+  .courses {
+    margin-top: 47px;
+  }
+  .direction__item {
+    min-height: 556px;
+  }
+}
+@media (max-width: 766px) {
+  .container {
+    padding: 0 33px;
+  }
+  .header__logo {
+    display: flex;
+    justify-content: center;
+  }
+  .header__nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .hero__row {
+    padding: 77px 0 135px 0;
+  }
+  .hero__container {
+    background-image: none;
+  }
+  .hero__content {
+    padding-right: 0;
+  }
+  .hero__btn {
+    margin-top: 64px;
+  }
+  .about__image  {
+    align-self: flex-start;
+  }
+  .teachers {
+    margin-top: 60px;
+  }
+  .direction__description-btn {
+    padding: 20.5px 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__row {
+    padding: 30px 0;
+  }
+  .nav__list {
+    margin-top: 30px;
+  }
+  .nav__item:not(:last-child) {
+    margin-right: 56px;
+  }
+  .hero__content {
+    padding-right: 100px;
+  }
+  .teachers {
+    margin-top: 55px;
+  }
+  .courses {
+    margin-top: 72px;
+  }
+  .direction__item {
+    min-height: 653px;
+  }
+}
+@media (max-width: 534px) {
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .header__logo {
+    justify-content: space-between;
+  }
+  .hero__row {
+    padding: 50px 0;
+  }
+  .hero__content {
+    padding-right: 0;
+  }
+  .hero__title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .hero__description {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .hero__btn {
+    padding: 20.5px 53.5px;
+  }
+  .about__image {
+    display: none;
+  }
+  .about__description.col-8  {
+    width: 100%;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .about__description-title {
+    line-height: 26px;
+  }
+  .achievements__card {
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .achievements__card.col-4 {
+    width: 100%;
+  }
+  .courses {
+    margin-top: 50px;
+  }
+  .direction__item.col-6 {
+    width: 100%;
+  }
+  .direction__item {
+    min-height: 300px;
+  }
+  .direction__item-image {
+    display: none;
+  }
+  .direction__item-description {
+    border-radius: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    padding: 0 15px;
+  }
+  .logo__image {
+    width: 75%;
+  }
+  .burger {
+    margin-right: 10px;
+  }
+  .hero__description {
+    margin-top: 7px;
+  }
+  .hero__btn {
+    margin-top: 46px;
+    padding: 20.5px 50px;
+  }
+  .advantage {
+    margin-top: 49px;
+  }
+  .about__description-text {
+    margin-top: 0;
+  }
+  .achievements {
+    margin-top: 0;
+  }
+  .achievements__card-text {
+    margin-top: 0;
+  }
+  .teachers {
+    margin-top: 44px;
+    padding: 48px 0;
+  }
+  .profile__item.col-6 {
+    width: 100%;
+  }
+  .profile__item-title {
+    margin-top: 30px;
+  }
+  .courses  {
+    margin-top: 44px;
+  }
+  .direction__item-image {
+    display: block;
+  }
+  .direction__item-description {
+    border-radius: 0 0 20px 20px;
+  }
+  .direction__item {
+    min-height: 653px;
+  }
+  .direction__description-btn {
+    padding: 20.5px 55.5px;
+  }
+}
